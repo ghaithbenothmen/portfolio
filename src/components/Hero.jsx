@@ -30,7 +30,7 @@ const Hero = () => {
 
       {/* <ComputersCanvas /> */}
       <div className='absolute top-[180px] right-10 mr-10'>
- <img src={ghaithPDP} alt="Profile" className='w-full h-auto object-cover' />
+  <img src={ghaithPDP} alt="Profile" className='w-100 h-100 ' />
 </div>
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
