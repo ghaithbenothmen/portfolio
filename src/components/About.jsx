@@ -59,7 +59,7 @@ const About = () => {
       </motion.p>
       <button className='cursor-text flex flex-row gap-5 mt-10'>
         <a
-          href='https://drive.google.com/file/d/1Ks5rG1lOnQvMoVeUtV28ZJ8DqNnh9Hxz/view?usp=drive_link'
+          href='https://drive.google.com/file/d/1o0JdPfleKy3LNY3aDIWdqaH71Q8jwWWH/view?usp=drive_link'
           target='_blank'
           rel='noreferrer'
           className='cursor-pointer flex justify-center items-center gap-2 bg-[#915EFF] px-5 py-2 rounded-lg text-white font-medium text-[16px] hover:bg-[#7F4FFF] transition-all duration-300'
