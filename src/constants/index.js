@@ -133,7 +133,7 @@ const experiences = [
     company_name: "Esprit",
     icon: esprit,
     iconBg: "#FFF",
-    date: "February 2024 - May 2024",
+    date: "January 2024 - June 2024",
     points: [
       "Use of JavaFX to develop the user interface for the desktop version of the application.",
       "Integration of Symfony for data management and communication with the database.",
