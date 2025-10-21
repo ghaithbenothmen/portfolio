@@ -19,19 +19,15 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Ghaith</span>
+            Hello, welcome to <span className='text-[#915EFF]'>HEMMA Studio</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop  <br className='sm:block hidden' />
-            Full Stack web and mobile applications.
+            We develop  <br className='sm:block hidden' />
+            Web, Desktop and mobile applications.
           </p>
         </div>
       </div>
 
-      {/* <ComputersCanvas /> */}
-      <div className='absolute top-[180px] right-10 mr-10'>
- <img src={ghaithPDP} alt="Profile" className='w-full h-auto object-cover' />
-</div>
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>

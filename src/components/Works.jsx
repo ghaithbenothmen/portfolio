@@ -7,7 +7,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-
+import web from "../assets/web.png";
 const ProjectCard = ({
   index,
   name,
@@ -41,7 +41,7 @@ const ProjectCard = ({
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
-                src={github}
+                src={web}
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />

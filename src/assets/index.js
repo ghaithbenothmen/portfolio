@@ -35,6 +35,13 @@ import loginapp from "./loginApp.png";
 import powerevent from "./powerevent.jpg";
 import tunart from "./tunart.jpg";
 import android from "./tech/android.png"
+import harron from "./company/harron-logo.png";
+import harron1 from "./harron1.jpeg";
+import harron2 from "./harron2.jpeg";
+import parkit from "./company/parkit.png";
+import printea from "./company/printea.jpeg";
+import parkitapp from "./parkit-page.png";
+import depanneurs from "./depanneurs.png";
 export {
   logo,
   backend,
@@ -72,5 +79,12 @@ export {
   loginapp,
   powerevent,
   tunart,
-  android
+  android,
+  harron,
+  harron1,
+  harron2,
+  parkit,
+  printea,
+  parkitapp,
+  depanneurs,
 };

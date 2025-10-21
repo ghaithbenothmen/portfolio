@@ -26,7 +26,14 @@ import {
   laravel,
   symfony,
   loginapp,
-  powerevent,tunart,android
+  powerevent,tunart,android,
+  harron,
+  harron1,
+  harron2,
+  parkit,
+  printea,
+  parkitapp,
+  depanneurs,
 } from "../assets";
 
 export const navLinks = [
@@ -115,6 +122,43 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Web Developer",
+    company_name: "Freelance Projects",
+    icon: printea,
+    iconBg: "#FFF",
+    date: "January 2025 - June 2025",
+    points: [
+      "Designed and developed responsive showcase websites tailored to client needs, ensuring modern UI/UX and optimal performance.",
+      "Built front-end interfaces using HTML, CSS, JavaScript, and modern frameworks for a smooth user experience.",
+      "Deployed and maintained websites on various hosting platforms (IONOS, OVH)."
+    ],
+  },
+  {
+    title: "Software Architect",
+    company_name: "Bal Project",
+    icon: parkit,
+    iconBg: "#FFF",
+    date: "January 2025 - June 2025",
+    points: [
+      "Developed a fully functional intelligent parking solution integrating IoT, AI, and web technologies.",
+      "Hardware Integration: Connected ESP32-CAM with a Python/Flask backend for real-time license plate recognition (LPR) and parking space detection.",
+      "Web App (MERN Stack): Real-time map of available spots, Flouci-based payment system, and admin dashboard with analytics.",
+      "DevOps & Monitoring: Automated CI/CD with Jenkins & Docker, code quality via SonarQube, and performance monitoring using Prometheus, Grafana, and cAdvisor."
+    ],
+  },
+   {
+    title: "Flutter Developer",
+    company_name: "Freelance Project",
+    icon: harron,
+    iconBg: "#FFF",
+    date: "July 2024 - September 2024",
+    points: [
+      "Designed all application interfaces using Figma, ensuring a premium user experience tailored to Islamic content. ",
+      "Developed a full Flutter application published on both the App Store and Google Play, featuring smooth animations and intuitive navigation.",
+      "Optimized performance (loading time and memory usage) to deliver an optimal user experience.",
+    ],
+  },
   {
     title: "Android Developer",
     company_name: "Freelance Project",
@@ -223,6 +267,45 @@ const projects = [
     ],
     image: tunart,
     source_code_link: "https://github.com/ghaithbenothmen/TunArt-WebProject",
+  },
+  
+  {
+    name: "ParkIt",
+    description:
+      "An intelligent parking management system integrating IoT, AI, and web technologies. Features include real-time license plate recognition, parking space detection using YOLOv6, and a MERN web app with payment via Flouci. CI/CD automated with Jenkins and Docker.",
+    tags: [
+      { name: "Flask", color: "blue-text-gradient" },
+      { name: "MERN", color: "green-text-gradient" },
+      { name: "YOLOv6", color: "pink-text-gradient" },
+      { name: "Docker", color: "orange-text-gradient" },
+    ],
+    image: parkitapp,
+    source_code_link: "https://park-it-seven.vercel.app/home",
+  },
+  {
+    name: "Harron",
+    description:
+      "A Flutter mobile app providing Islamic educational content with a premium user experience. Designed with Figma, featuring smooth animations, optimized performance, and publication on App Store and Google Play.",
+    tags: [
+      { name: "Flutter", color: "blue-text-gradient" },
+      { name: "Figma", color: "green-text-gradient" },
+      { name: "RESTAPI", color: "pink-text-gradient" },
+    ],
+    image: harron1,
+    source_code_link: "https://play.google.com/store/apps/details?id=com.haroon.app&hl=fr",
+  },
+  {
+    name: "Vitrine",
+    description:
+      "Developed multiple responsive showcase websites for clients using modern web technologies. Focused on performance, design, SEO optimization, and deployment across platforms like IONOS and OVH.",
+    tags: [
+      { name: "HTML", color: "blue-text-gradient" },
+      { name: "CSS", color: "green-text-gradient" },
+      { name: "JavaScript", color: "pink-text-gradient" },
+      { name: "Laravel", color: "orange-text-gradient" },
+    ],
+    image: depanneurs,
+    source_code_link: "https://depanneursprives.fr/",
   },
 ];
 
