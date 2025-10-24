@@ -22,6 +22,7 @@ import springboot from "./tech/springboot.png";
 import symfony from "./tech/symfony.jpg";
 import MSKTechnologies from "./company/msk_tech.jpg";
 import esprit from "./company/esprit.jpg";
+import cpp from "./tech/cpp.svg";
 import roam from "./company/roam.png"
 import laravel from "./tech/laravel.png";
 import sofa from "./sofa.png";
@@ -55,6 +56,7 @@ export {
   docker,
   unity,
   git,
+  cpp,
   html,
   javascript,
   mongodb,

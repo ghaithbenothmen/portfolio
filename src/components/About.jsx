@@ -48,31 +48,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        As an adept software developer
-        I bring valuable experience in Php, TypeScript, JavaScript and Java , coupled with expertise
-        in frameworks such as Angular, Spring Boot, VueJs, Laravel, Symfony, JavaFx and FlutterFlow.
-        My true passion lies in crafting interactive and responsive software solutions that captivate users.
-        With a sharp learning curve, I readily adapt to new technologies
-        and closely collaborate with clients to develop efficient, scalable,
-        and user-friendly solutions that effectively address real-world challenges.
-        Together, let's transform your ideas into tangible, innovative realities!
+        At Hemma Studio, we’re more than just developers — we’re engineers of digital experiences.
+        Our team brings together solid expertise in PHP, TypeScript, JavaScript, and Java, leveraging modern frameworks like Angular, Spring Boot, Vue.js, Laravel, Symfony, JavaFX, and FlutterFlow to build seamless, high-performance applications.
+        What drives us is the art of creating interactive and responsive solutions that truly engage users.
+        We thrive on learning fast, adapting to emerging technologies, and collaborating closely with clients to craft systems that are efficient, scalable, and user-centered.
+
+        At Hemma Studio, innovation is a shared mission —
+        together, we turn ideas into powerful, tangible realities.
       </motion.p>
-      <button className='cursor-text flex flex-row gap-5 mt-10'>
-        <a
-          href='https://drive.google.com/file/d/1PI7cOk-sEWexaKQEuTf7Bp45ZACfavIR/view?usp=drive_link'
-          target='_blank'
-          rel='noreferrer'
-          className='cursor-pointer flex justify-center items-center gap-2 bg-[#915EFF] px-5 py-2 rounded-lg text-white font-medium text-[16px] hover:bg-[#7F4FFF] transition-all duration-300'
-        >
-          <img
-            src='https://img.icons8.com/ios-filled/50/ffffff/download--v1.png'
-            alt='download'
-            className='w-5 h-5 object-contain'
-          />
-          Download Resume
-        </a>
-      </button>
-      <div className='mt-20 flex justify-center flex-wrap gap-16'>
+
+      <div className='mt-20 flex justify-center flex-wrap gap-12'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

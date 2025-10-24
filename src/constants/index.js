@@ -34,6 +34,7 @@ import {
   printea,
   parkitapp,
   depanneurs,
+  cpp
 } from "../assets";
 
 export const navLinks = [
@@ -53,17 +54,21 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Frontend Developer",
+    title: "Frontend Developers",
     icon: web,
   },
   {
-    title: "Backend Developer",
+    title: "Backend Developers",
     icon: mobile,
   },
   {
-    title: "Mobile Developer",
+    title: "IOS / Android Developers",
     icon: backend,
   },
+  {
+    title: "IOT Developers",
+    icon: backend,
+  }
 ];
 
 const technologies = [
@@ -118,6 +123,10 @@ const technologies = [
   {
     name: "Symfony",
     icon: symfony,
+  },
+  {
+    name: "C++",
+    icon: cpp,
   }
 ];
 
