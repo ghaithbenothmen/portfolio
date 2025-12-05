@@ -44,7 +44,7 @@ const Navbar = () => {
         >
           <img src={logo} alt='logo' className='w-16 h-16 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Hemma Studio &nbsp;
+            Hemma Consulting &nbsp;
             {/* <span className='sm:block hidden'> | Software Developer </span> */}
           </p>
         </Link>

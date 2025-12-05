@@ -48,12 +48,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        At Hemma Studio, we’re more than just developers — we’re engineers of digital experiences.
+        At Hemma Consulting, we’re more than just developers — we’re engineers of digital experiences.
         Our team brings together solid expertise in PHP, TypeScript, JavaScript, and Java, leveraging modern frameworks like Angular, Spring Boot, Vue.js, Laravel, Symfony, JavaFX, and FlutterFlow to build seamless, high-performance applications.
         What drives us is the art of creating interactive and responsive solutions that truly engage users.
         We thrive on learning fast, adapting to emerging technologies, and collaborating closely with clients to craft systems that are efficient, scalable, and user-centered.
 
-        At Hemma Studio, innovation is a shared mission —
+        At Hemma Consulting, innovation is a shared mission —
         together, we turn ideas into powerful, tangible realities.
       </motion.p>
 
